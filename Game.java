@@ -1,9 +1,14 @@
+import java.util.ArrayList;
 
 public class Game {
+    private Player player;
+    private ArrayList<Enemy> enemies = new ArrayList<>();
+    private ArrayList<String> eventLog = new ArrayList<>();
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    public Game(Player player) {
+        this.player = player;
+    }
 
-	}
 
+ 
 }
